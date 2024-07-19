@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Report for Latest News</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #e2e2e2, #ffffff);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 2em;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        ol {
+            text-align: left;
+            margin: 0 auto;
+            max-width: 800px;
+            font-size: 1.2em;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        .step-title {
+            font-weight: bold;
+            color: #007BFF;
+        }
+
+        .description {
+            margin-top: 5px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sentiment Analysis Report for Latest News</h1>
+        <p>This project analyzes today's news headlines and categorizes them as positive, negative, or neutral.</p>
+        <ol>
+            <li>
+                <span class="step-title">Set Up the Flask Application:</span>
+                <p class="description">Initialize the Flask project and set up the necessary environment.</p>
+            </li>
+            <li>
+                <span class="step-title">Fetch News Data:</span>
+                <p class="description">Retrieve news data from a public API.</p>
+            </li>
+            <li>
+                <span class="step-title">Process the Data:</span>
+                <p class="description">Perform sentiment analysis on each article title using <b>TextBlob</b>, a Python library that offers simple APIs for natural language processing tasks, including sentiment analysis, text classification, and translation.</p>
+            </li>
+            <li>
+                <span class="step-title">Design the Frontend:</span>
+                <p class="description">Create a user interface to display the sentiment analysis report effectively.</p>
+            </li>
+        </ol>
+    </div>
+</body>
+
+</html>

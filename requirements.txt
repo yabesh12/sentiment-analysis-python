@@ -1,0 +1,26 @@
+
+**"Sentiment Analysis Report for Latest News"**
+
+This project analyzes today's news headlines and categorizes them as positive, negative, or neutral.
+
+**Steps involved:**
+
+1. **Set Up the Flask Application:** Initialize the Flask project and set up the necessary environment.
+
+2. **Fetch News Data:** Retrieve news data from a public API.
+
+3. **Process the Data:** Perform sentiment analysis on each article title using TextBlob, a Python library that offers simple APIs for natural language processing tasks, including sentiment analysis, text classification, and translation.
+
+4. **Design the Frontend:** Create a user interface to display the sentiment analysis report effectively.
+
+---
+
+1. create a python virtual environment
+2. activate that
+3. installing the required libraries includes TextBlob
+4. open code editor
+5. create a python file with the functionalities
+6. create a html file for report dashboard
+7. run the application - It fetches the latest news and based on the news content the sentiment analysis report will be generated.
+
+Thanks for watching!
